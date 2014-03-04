@@ -77,3 +77,4 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
+bindkey '^A' beginning-of-line
