@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kpiskunov/bin/"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # pip should only run if there is a virtualenv currently activated
@@ -76,6 +76,7 @@ bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 bindkey '^A' beginning-of-line
 
+#Emacs style line edit key bindings
 autoload edit-command-line
 zle -N edit-command-line
 bindkey '^X^e' edit-command-line
