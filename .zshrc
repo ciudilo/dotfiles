@@ -60,12 +60,9 @@ export PIP_REQUIRE_VIRTUALENV=true
 # cache pip-installed packages to avoid re-downloading
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 
-# # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+
+export EDITOR='vim'
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -78,3 +75,7 @@ bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 bindkey '^A' beginning-of-line
+
+autoload edit-command-line
+zle -N edit-command-line
+bindkey '^X^e' edit-command-line
