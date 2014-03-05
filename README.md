@@ -4,7 +4,7 @@ dotfiles
 Suported systems
 ================
 
-I ammusing these on OS X 10.9 (Mavericks) and Linux (Centos)
+I ammusing these on OS X 10.9 (Mavericks) and Linux (CentOS)
 
 ###
 When setting up a new Mac, you may want to set some sensible OS X defaults:
