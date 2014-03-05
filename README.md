@@ -3,7 +3,7 @@
 
 ##Suported systems
 
-I am musing these on OS X 10.9 (Mavericks) and Linux (CentOS)
+I am using these on OS X 10.9 (Mavericks) and Linux (CentOS)
 
 ### Installation
 When setting up a new Mac, you may want to set some sensible OS X defaults:
