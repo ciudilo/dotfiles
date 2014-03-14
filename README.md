@@ -1,6 +1,6 @@
 # Kiril's dotfiles
 
-![](https://raw.github.com/github/ciudilo/dotfiles/images/screenshot.png)
+![](https://raw.github.com/ciudilo/dotfiles/master/images/screenshot.png)
 
 ##Suported systems
 
