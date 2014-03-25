@@ -1,4 +1,5 @@
 " Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
+set background=dark
 colorscheme solarized
 
 " Make Vim more useful
