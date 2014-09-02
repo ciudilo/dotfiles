@@ -22,6 +22,8 @@ function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 # Uncomment to change how often before auto-updates occur? (in days)
 export UPDATE_ZSH_DAYS=5
 
+export UPDATE_DOTFILES_DAYS=3
+
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
 
@@ -39,7 +41,7 @@ export UPDATE_ZSH_DAYS=5
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-# Uncomment following line if you want to  shown in the command execution time stamp 
+# Uncomment following line if you want to  shown in the command execution time stamp
 # in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
 # yyyy-mm-dd
 # HIST_STAMPS="mm/dd/yyyy"
@@ -47,9 +49,10 @@ export UPDATE_ZSH_DAYS=5
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git vi-mode tmux sublime docker)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
+zsh -f ~/dotfiles/check_for_upgrade.sh
 
 # User configuration
 
