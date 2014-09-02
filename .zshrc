@@ -20,7 +20,7 @@ function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=5
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
@@ -81,3 +81,6 @@ bindkey '^A' beginning-of-line
 autoload edit-command-line
 zle -N edit-command-line
 bindkey '^X^e' edit-command-line
+
+#Line navigation
+bindkey '^E' end-of-line
