@@ -12,6 +12,7 @@ ZSH_THEME="agnoster"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
+alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
