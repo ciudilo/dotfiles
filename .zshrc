@@ -50,7 +50,7 @@ export UPDATE_DOTFILES_DAYS=3
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(docker ssh-agent)
+plugins=(docker ssh-agent git)
 
 source $ZSH/oh-my-zsh.sh
 zsh -f ~/dotfiles/check_for_upgrade.sh
