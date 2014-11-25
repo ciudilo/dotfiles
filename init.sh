@@ -4,6 +4,7 @@ cd
 ln -s dotfiles/.tmux.conf .tmux.conf
 ln -s dotfiles/.zshrc .zshrc
 ln -s dotfiles/.vimrc .vimrc
+ln -s dotfiles/.gdbinit .gdbinit
 mkdir -p .vim/{backups,swaps,undo,colors}
 cp dotfiles/init/solarized.vim ~/.vim/colors
 
