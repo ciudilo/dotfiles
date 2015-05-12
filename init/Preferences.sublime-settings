@@ -1,9 +1,8 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-	"default_line_ending": "unix",
-	"show_line_endings": true,
+  "theme": "Asphalt.sublime-theme",
 	"default_encoding": "UTF-8",
-	"show_encoding": true,
+	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": false,
@@ -24,6 +23,10 @@
 	],
 	"font_size": 15,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"line_padding_bottom": 6,
 	"match_brackets": true,
 	"match_brackets_angle": true,
@@ -32,14 +35,12 @@
 	[
 		120
 	],
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-  "use_tab_stops": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-  "show_full_path": true
+	"use_tab_stops": true,
+	"word_wrap": true
 }
