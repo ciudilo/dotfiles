@@ -10,7 +10,7 @@ I am using these on OS X 10.10 (Yosemite) and Linux (CentOS)
 
 * tmux [http://tmux.sourceforge.net]
 * oh-my-zsh [https://github.com/robbyrussell/oh-my-zsh]
-* Patched Powerline font [https://github.com/Lokaltog/powerline-fonts] (e.g. [https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf])
+* Patched Powerline font [https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf] 
 
 ### Installation
 
