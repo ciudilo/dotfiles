@@ -14,6 +14,10 @@ ZSH_THEME="agnoster"
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'"
 
+if [ `uname` = "Darwin" ]; then
+  alias subl="open -a 'Sublime Text'"
+fi
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -50,7 +54,7 @@ export UPDATE_DOTFILES_DAYS=3
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(docker ssh-agent git heroku)
+plugins=(vi-mode docker ssh-agent git heroku)
 
 source $ZSH/oh-my-zsh.sh
 zsh -f ~/dotfiles/check_for_upgrade.sh
@@ -65,6 +69,11 @@ export PIP_REQUIRE_VIRTUALENV=true
 # cache pip-installed packages to avoid re-downloading
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 
+if [ `uname` = "Darwin" ]; then
+  #virtualenv auto-activation
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi 
 
 export EDITOR='vim'
 
