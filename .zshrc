@@ -73,6 +73,12 @@ if [ `uname` = "Darwin" ]; then
   #virtualenv auto-activation
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
+
+  export RBENV_ROOT=/usr/local/var/rbenv
+  if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+	
+  eval `/usr/libexec/path_helper -s`
+
 fi 
 
 export EDITOR='vim'
