@@ -4,7 +4,7 @@
 
 ##Suported systems
 
-I am using these on OS X 10.10 (Yosemite) and Linux (CentOS)
+I am using these on OS X 10.11 (El Capitan) and Linux (CentOS)
 
 ### Prerequisites
 
