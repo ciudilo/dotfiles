@@ -95,6 +95,9 @@ bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search
 bindkey '^A' beginning-of-line
+bindkey "^[b" backward-word
+bindkey "^[d" kill-word
+bindkey "^[f" forward-word
 
 ##########################################
 # zsh-history-substring-search settings
