@@ -4,13 +4,14 @@
 
 ##Suported systems
 
-I am using these on OS X 10.11 (El Capitan) and Linux (CentOS)
+I am using these on OS X 10.13 (High Sierra) and Linux (CentOS)
 
 ### Prerequisites
 
 * tmux [http://tmux.sourceforge.net]
 * oh-my-zsh [https://github.com/robbyrussell/oh-my-zsh]
 * Patched Powerline font [https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf] 
+* Solarized Dark color scheme for iTerm [https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized]
 
 ### Installation
 
